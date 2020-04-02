@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689A3B7F24342A95002D046C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3B7E24342A95002D046C /* AppDelegate.m */; };
+		689A3B8224342A95002D046C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3B8124342A95002D046C /* ViewController.m */; };
+		689A3B8524342A95002D046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689A3B8324342A95002D046C /* Main.storyboard */; };
+		689A3B8724342A97002D046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689A3B8624342A97002D046C /* Assets.xcassets */; };
+		689A3B8A24342A97002D046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689A3B8824342A97002D046C /* LaunchScreen.storyboard */; };
+		689A3B8D24342A97002D046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3B8C24342A97002D046C /* main.m */; };
+		689A3B9724342A97002D046C /* ReadFBShimmeringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3B9624342A97002D046C /* ReadFBShimmeringTests.m */; };
+		689A3BA224342A97002D046C /* ReadFBShimmeringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3BA124342A97002D046C /* ReadFBShimmeringUITests.m */; };
+		689A3BB624342AB0002D046C /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3BB424342AAF002D046C /* FBShimmeringLayer.m */; };
+		689A3BB724342AB0002D046C /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A3BB524342AAF002D046C /* FBShimmeringView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689A3B9324342A97002D046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689A3B7224342A95002D046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689A3B7924342A95002D046C;
+			remoteInfo = ReadFBShimmering;
+		};
+		689A3B9E24342A97002D046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689A3B7224342A95002D046C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689A3B7924342A95002D046C;
+			remoteInfo = ReadFBShimmering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		689A3B7A24342A95002D046C /* ReadFBShimmering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadFBShimmering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A3B7D24342A95002D046C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689A3B7E24342A95002D046C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689A3B8024342A95002D046C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689A3B8124342A95002D046C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		689A3B8424342A95002D046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689A3B8624342A97002D046C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689A3B8924342A97002D046C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689A3B8B24342A97002D046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689A3B8C24342A97002D046C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689A3B9224342A97002D046C /* ReadFBShimmeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadFBShimmeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A3B9624342A97002D046C /* ReadFBShimmeringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadFBShimmeringTests.m; sourceTree = "<group>"; };
+		689A3B9824342A97002D046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689A3B9D24342A97002D046C /* ReadFBShimmeringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadFBShimmeringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A3BA124342A97002D046C /* ReadFBShimmeringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadFBShimmeringUITests.m; sourceTree = "<group>"; };
+		689A3BA324342A97002D046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689A3BB024342AAF002D046C /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		689A3BB124342AAF002D046C /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		689A3BB224342AAF002D046C /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		689A3BB324342AAF002D046C /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		689A3BB424342AAF002D046C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		689A3BB524342AAF002D046C /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689A3B7724342A95002D046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B8F24342A97002D046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B9A24342A97002D046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689A3B7124342A95002D046C = {
+			isa = PBXGroup;
+			children = (
+				689A3B7C24342A95002D046C /* ReadFBShimmering */,
+				689A3B9524342A97002D046C /* ReadFBShimmeringTests */,
+				689A3BA024342A97002D046C /* ReadFBShimmeringUITests */,
+				689A3B7B24342A95002D046C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689A3B7B24342A95002D046C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689A3B7A24342A95002D046C /* ReadFBShimmering.app */,
+				689A3B9224342A97002D046C /* ReadFBShimmeringTests.xctest */,
+				689A3B9D24342A97002D046C /* ReadFBShimmeringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689A3B7C24342A95002D046C /* ReadFBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				689A3BAF24342AAF002D046C /* FBShimmering */,
+				689A3B7D24342A95002D046C /* AppDelegate.h */,
+				689A3B7E24342A95002D046C /* AppDelegate.m */,
+				689A3B8024342A95002D046C /* ViewController.h */,
+				689A3B8124342A95002D046C /* ViewController.m */,
+				689A3B8324342A95002D046C /* Main.storyboard */,
+				689A3B8624342A97002D046C /* Assets.xcassets */,
+				689A3B8824342A97002D046C /* LaunchScreen.storyboard */,
+				689A3B8B24342A97002D046C /* Info.plist */,
+				689A3B8C24342A97002D046C /* main.m */,
+			);
+			path = ReadFBShimmering;
+			sourceTree = "<group>";
+		};
+		689A3B9524342A97002D046C /* ReadFBShimmeringTests */ = {
+			isa = PBXGroup;
+			children = (
+				689A3B9624342A97002D046C /* ReadFBShimmeringTests.m */,
+				689A3B9824342A97002D046C /* Info.plist */,
+			);
+			path = ReadFBShimmeringTests;
+			sourceTree = "<group>";
+		};
+		689A3BA024342A97002D046C /* ReadFBShimmeringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				689A3BA124342A97002D046C /* ReadFBShimmeringUITests.m */,
+				689A3BA324342A97002D046C /* Info.plist */,
+			);
+			path = ReadFBShimmeringUITests;
+			sourceTree = "<group>";
+		};
+		689A3BAF24342AAF002D046C /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				689A3BB024342AAF002D046C /* FBShimmering.h */,
+				689A3BB124342AAF002D046C /* FBShimmeringLayer.h */,
+				689A3BB224342AAF002D046C /* FBShimmering-Prefix.pch */,
+				689A3BB324342AAF002D046C /* FBShimmeringView.h */,
+				689A3BB424342AAF002D046C /* FBShimmeringLayer.m */,
+				689A3BB524342AAF002D046C /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689A3B7924342A95002D046C /* ReadFBShimmering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A3BA624342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmering" */;
+			buildPhases = (
+				689A3B7624342A95002D046C /* Sources */,
+				689A3B7724342A95002D046C /* Frameworks */,
+				689A3B7824342A95002D046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadFBShimmering;
+			productName = ReadFBShimmering;
+			productReference = 689A3B7A24342A95002D046C /* ReadFBShimmering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689A3B9124342A97002D046C /* ReadFBShimmeringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A3BA924342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmeringTests" */;
+			buildPhases = (
+				689A3B8E24342A97002D046C /* Sources */,
+				689A3B8F24342A97002D046C /* Frameworks */,
+				689A3B9024342A97002D046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689A3B9424342A97002D046C /* PBXTargetDependency */,
+			);
+			name = ReadFBShimmeringTests;
+			productName = ReadFBShimmeringTests;
+			productReference = 689A3B9224342A97002D046C /* ReadFBShimmeringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689A3B9C24342A97002D046C /* ReadFBShimmeringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A3BAC24342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmeringUITests" */;
+			buildPhases = (
+				689A3B9924342A97002D046C /* Sources */,
+				689A3B9A24342A97002D046C /* Frameworks */,
+				689A3B9B24342A97002D046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689A3B9F24342A97002D046C /* PBXTargetDependency */,
+			);
+			name = ReadFBShimmeringUITests;
+			productName = ReadFBShimmeringUITests;
+			productReference = 689A3B9D24342A97002D046C /* ReadFBShimmeringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689A3B7224342A95002D046C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Bryant Reyn";
+				TargetAttributes = {
+					689A3B7924342A95002D046C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					689A3B9124342A97002D046C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 689A3B7924342A95002D046C;
+					};
+					689A3B9C24342A97002D046C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 689A3B7924342A95002D046C;
+					};
+				};
+			};
+			buildConfigurationList = 689A3B7524342A95002D046C /* Build configuration list for PBXProject "ReadFBShimmering" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689A3B7124342A95002D046C;
+			productRefGroup = 689A3B7B24342A95002D046C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689A3B7924342A95002D046C /* ReadFBShimmering */,
+				689A3B9124342A97002D046C /* ReadFBShimmeringTests */,
+				689A3B9C24342A97002D046C /* ReadFBShimmeringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689A3B7824342A95002D046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A3B8A24342A97002D046C /* LaunchScreen.storyboard in Resources */,
+				689A3B8724342A97002D046C /* Assets.xcassets in Resources */,
+				689A3B8524342A95002D046C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B9024342A97002D046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B9B24342A97002D046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689A3B7624342A95002D046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A3B8224342A95002D046C /* ViewController.m in Sources */,
+				689A3B8D24342A97002D046C /* main.m in Sources */,
+				689A3BB624342AB0002D046C /* FBShimmeringLayer.m in Sources */,
+				689A3BB724342AB0002D046C /* FBShimmeringView.m in Sources */,
+				689A3B7F24342A95002D046C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B8E24342A97002D046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A3B9724342A97002D046C /* ReadFBShimmeringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A3B9924342A97002D046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A3BA224342A97002D046C /* ReadFBShimmeringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689A3B9424342A97002D046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689A3B7924342A95002D046C /* ReadFBShimmering */;
+			targetProxy = 689A3B9324342A97002D046C /* PBXContainerItemProxy */;
+		};
+		689A3B9F24342A97002D046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689A3B7924342A95002D046C /* ReadFBShimmering */;
+			targetProxy = 689A3B9E24342A97002D046C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689A3B8324342A95002D046C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A3B8424342A95002D046C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689A3B8824342A97002D046C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A3B8924342A97002D046C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689A3BA424342A97002D046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689A3BA524342A97002D046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689A3BA724342A97002D046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689A3BA824342A97002D046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689A3BAA24342A97002D046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadFBShimmering.app/ReadFBShimmering";
+			};
+			name = Debug;
+		};
+		689A3BAB24342A97002D046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmeringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadFBShimmering.app/ReadFBShimmering";
+			};
+			name = Release;
+		};
+		689A3BAD24342A97002D046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmeringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmeringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadFBShimmering;
+			};
+			name = Debug;
+		};
+		689A3BAE24342A97002D046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReadFBShimmeringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crimsonresearch.ReadFBShimmeringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadFBShimmering;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689A3B7524342A95002D046C /* Build configuration list for PBXProject "ReadFBShimmering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A3BA424342A97002D046C /* Debug */,
+				689A3BA524342A97002D046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689A3BA624342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A3BA724342A97002D046C /* Debug */,
+				689A3BA824342A97002D046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689A3BA924342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmeringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A3BAA24342A97002D046C /* Debug */,
+				689A3BAB24342A97002D046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689A3BAC24342A97002D046C /* Build configuration list for PBXNativeTarget "ReadFBShimmeringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A3BAD24342A97002D046C /* Debug */,
+				689A3BAE24342A97002D046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689A3B7224342A95002D046C /* Project object */;
+}
